@@ -8,7 +8,7 @@ import {
   ScrollView,
   TouchableOpacity
 } from "react-native";
-import { CallToAction } from "./CallToAction";
+
 
 const imageBanner = {uri: 'https://wallpapercave.com/uwp/uwp1594744.jpeg'};
 const logoMyTinerary = {uri: 'https://i.postimg.cc/Bv1PLJYz/mt-logo.png'};
@@ -29,7 +29,7 @@ export const Hero = () => {
             <Text style={styles.subTitle}>designed by insiders who know</Text>
             <Text style={styles.subTitle}> and love their cities!</Text>
           </View>
-          <CallToAction/>
+          
         </View>
         
       </ImageBackground>

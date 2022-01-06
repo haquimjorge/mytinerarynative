@@ -8,19 +8,20 @@ export const WarningCovid = () => {
     <View style={styles.container}>
       <View style={styles.heroText}>
         <Image source={logoWarning} style={styles.logo} />
-      </View>
-      <Text style={styles.subTitle}>
+        <Text style={styles.subTitle}>
         From MyTinerary, we are aware of the current situation caused by the
         pandemic produced by COVID-19. We urge travelers to take care of
         themselves, and to maintain the necessary protocols.
       </Text>
+      </View>
+      
     </View>
   );
 };
 
 const styles = StyleSheet.create({
   container: {
-    height: 400,
+    height: 500,
     backgroundColor: "#000",
     alignItems: "center",
   },
@@ -35,17 +36,17 @@ const styles = StyleSheet.create({
     fontSize: 16,
     marginTop: 10,
     paddingHorizontal: 15,
-    textAlign: 'center'
+    textAlign: 'center',
+    marginBottom: 15,
   },
-
   subTitleContainer: {
     marginTop: 50,
   },
   logo: {
     flex: 1,
     justifyContent: "center",
-    height: 130,
-    width: 140,
+    alignSelf: 'center',
+    width: 350,
     marginTop: 10,
   },
 });
