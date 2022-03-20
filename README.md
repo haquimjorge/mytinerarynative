@@ -1,8 +1,7 @@
 # MyTinerary Mobile 🛩
 
-MyTinerary Mobile es la versión para dispositivos móviles de mi primer proyecto invidivual Full Stack MERN que realicé en el Bootcamp de MindHub. Es una web app en donde viajeros
-postean itinerarios y los usuarios registrados pueden darle like y comentarlos. Los comentarios son editables y borrables por el mismo usuario que los hizo. La App Mobile consume el backend
-realizado para la Web App.
+MyTinerary Mobile es la versión para dispositivos móviles de mi primer proyecto invidivual Full Stack MERN que realicé. Es una web app en donde viajeros
+postean itinerarios y los usuarios registrados pueden darle like y comentarlos. Los comentarios son editables y borrables por el mismo usuario que los hizo. La App Mobile consume el backend realizado para la Web App.
  
 ##
 
